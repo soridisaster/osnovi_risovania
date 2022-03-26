@@ -54,7 +54,7 @@ function addMovieOnPage(movie){
 
     let movieParamTitle = document.createElement('pre');
     movieParamTitle.setAttribute("class", "param");
-    movieParamTitle.textContent = "Название: ";
+    movieParamTitle.textContent = "Имя: ";
 
     let movieDescriptionTitle = document.createElement('p');
     movieDescriptionTitle.setAttribute("class", "desc");
@@ -72,7 +72,7 @@ function addMovieOnPage(movie){
 
     let movieParamCountry = document.createElement('pre');
     movieParamCountry.setAttribute("class", "param");
-    movieParamCountry.textContent = "Страна: ";
+    movieParamCountry.textContent = "Урок: ";
 
     let movieDescriptionCountry = document.createElement('p');
     movieDescriptionCountry.setAttribute("class", "desc");
