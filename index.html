@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Основы рисования</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <script src='index.js'></script>
+</head>
+<body><a name="top"></a>
+            <!--ЛОГО И ОСНОВНЫЕ КНОПКИ-->
+    <div class="header">
+        <div ><a href='index.html'><img class="header_img" src="header1-01.png"></a></div>
+        
+        <div class="sections">
+            <div ><button onclick="location.href='index1.html'" class="butt1">Набор материалов</button></div>
+            <div ><button onclick="location.href='index2.html'" class="butt2">Стиль</button></div>
+            <div ><button onclick="location.href='index3.html'" name="butt3" class="butt3">Работа с референсом</button></div>
+            <div ><button onclick="location.href='index4.html'" class="butt4">Акценты</button></div>
+            <div ><button onclick="location.href='index5.html'" class="butt5">Цвет и свет</button></div>
+        </div>    
+
+    </div>
+
+            <!--ОПИСАНИЕ-->
+    <div class="intro">
+        <div class="textAll">
+
+            <div class="div1">
+                В данной статье мы разберем основы создания рисунка на удобных примерах. В этот урок входят советы, которые я накапливала в течении всей своей художественной практики, и которые, надеюсь, помогут Вам в будущем избежать грубых ошибок и быстрее приблизиться к идеалу. В конце вы можете пройти короткий тест и узнать, насколько хорошо вы усвоили материал. А также предлагаю просмотреть галерею работ автора. Удачи!
+            </div>
+        
+            <div class="head">С чего стоит начать?</div>
+        </div>
+    
+        <div class="div2">
+            <div class="div2_1">
+                Главное, что стоит усвоить с самого начала – с первого раза получается шедевр только у гениев. А мы с вами далеко не такие, поэтому стоит посветить практике приличное количество времени. Неудачи преследуют всех и с этим просто стоит смириться. Не стоит сравнивать себя с другими. У всех разные условия для реализации и склад ума. Что для одного будет проблемой двух минут, для другого может стать непосильной задачей. Стоит сравнивать себя только с собой из прошлого, чтобы понимать, как далеко ты уже продвинулся.
+            </div>
+            <div class="div2_2">
+                <img class="img1" src="https://sun9-49.userapi.com/impg/zpHgeVYkykUH0jv4oPFouG2eshiTH7QRYwyQdw/T7P6bd9LltY.jpg?size=1527x2160&quality=96&sign=733ff5839d8e38d149fd33fa823e5597&type=album">
+            </div>
+        </div>
+        <div class="textAll">
+
+            <div class="div1">
+                Вы можете пройти все наши уроки обучения, а после проверить свои знания в нашем тесте. Если же вы без обучения уверенны в себе и своих знаниях, то дерзайте без подготовки!
+            </div>
+        </div>
+
+        <!--ТЕСТ-->
+
+        <div id="test">
+		    <div >
+			    <button class="button_test" onclick="(document.getElementById('testMain').style.display='block')">Пройти тест</button> 
+		    </div>
+            <div id="testMain">
+                <p class="nameq"> 1. Что такое референс? </p>
+                <div class ="question">
+                    <div><input type="radio" name="q1" id="q1_1" ><label class="form-check-label" for="q1_1">1. Это переход от высоких форм к низким</label></div>
+                    <div><input type="radio" name="q1" id="q1_2" ><label class="form-check-label" for="q1_2">2. Это вспомогательное изображение</label></div>
+                    <div><input type="radio" name="q1" id="q1_3" ><label class="form-check-label" for="q1_3">3. Это стиль рисования</label></div>
+                </div>
+    
+                <p class="nameq"> 2. Что такое акцент? </p>
+                <div class ="question">
+                    <div><input type="radio" name="q2" id="q2_1" ><label class="form-check-label" for="q2_1">1. Это приёмы выделения</label></div>
+                    <div><input type="radio" name="q2" id="q2_2" ><label class="form-check-label" for="q2_2">2. Это содержание картины </label></div>
+                    <div><input type="radio" name="q2" id="q2_3" ><label class="form-check-label" for="q2_3">3. Это стиль рисования</label></div>
+                </div>
+    
+                <p class="nameq"> 3. В чем смысл акцентов? </p>
+                <div class ="question">
+                    <div><input type="radio" name="q3" id="q3_1" ><label class="form-check-label" for="q3_1">1. Чтобы передать смысл картины</label></div>
+                    <div><input type="radio" name="q3" id="q3_2" ><label class="form-check-label" for="q3_2">2. Чтобы привлечь внимание зрителя</label></div>
+                    <div><input type="radio" name="q3" id="q3_3" ><label class="form-check-label" for="q3_3">3. Чтобы научиться лучше рисовать</label></div>
+                </div>
+    
+    
+                <p class="nameq"> 4. Что такое моделирующий свет? </p>
+                <div class ="question">
+                    <div><input type="radio" name="q4" id="q4_1" ><label class="form-check-label" for="q4_1">1. Это свет для выделения боковых частей объекта</label></div>
+                    <div><input type="radio" name="q4" id="q4_2" ><label class="form-check-label" for="q4_2">2. Это свет для улучшения качества фото</label></div>
+                    <div><input type="radio" name="q4" id="q4_3" ><label class="form-check-label" for="q4_3">3. Это свет для выделения контура объекта</label></div>
+                </div>
+    
+                <p class="nameq"> 5. Сколько всего видов света? </p>
+                <div class ="question" id="question5">
+                    <input type="radio" name="q5" id="q5_1" ><label class="form-check-label" for="q5_1">1</label>
+                    <input type="radio" name="q5" id="q5_2" ><label class="form-check-label" for="q5_2">3</label>
+                    <input type="radio" name="q5" id="q5_3" ><label class="form-check-label" for="q5_3">5</label>
+                </div>
+    
+    
+                <div id="button2">
+                    <button class="button_test" id="button2" onclick="summary();">Завершить тест</button> 
+                </div>
+                <div id="str5"></div>
+                
+            </div>
+		
+	    </div>
+                <!--ГАЛЕРЕЯ РАБОТ-->
+        <div class="textAll">
+        
+            <div class="head">Галерея работ</div>
+        </div>
+
+
+    </div>
+    
+
+    <div class="adaptivny-slayder">
+        <input type="radio" name="kadoves" id="slaid1" checked>
+        <input type="radio" name="kadoves" id="slaid2">
+        <input type="radio" name="kadoves" id="slaid3">
+        <input type="radio" name="kadoves" id="slaid4">
+         
+        <div class="kadoves">
+            <label for="slaid1"></label>
+            <label for="slaid2"></label>
+            <label for="slaid3"></label>
+            <label for="slaid4"></label>
+        </div>
+         
+        <div class="adaptivny-slayder-lasekun">
+            <div class="abusteku-deagulus">
+                <img src="https://sun9-43.userapi.com/impg/hXu8L-Im3HVfchgF7c3kusVYng1xXdTiPEm3Mw/Un29Lm2doSA.jpg?size=1527x2160&quality=96&sign=f6104d1bc88ccf10869d4473bf39a7a8&type=album"/>
+                <img src="https://sun9-77.userapi.com/impg/aMr7ttt0CYW-CbFFSkCek3MA1jr4AXigFLdEgg/JOAzPHKXPSY.jpg?size=1527x2160&quality=95&sign=30a3c8a1e92c281575bb83ee66eb68f2&type=album"/>
+                <img src="https://sun9-22.userapi.com/impg/peKsrqEBBMjwgNr7SLHaoUR4DhI4KtjzGqhPmg/L7S3RlCvFA8.jpg?size=1131x1600&quality=96&sign=0a1950699a9cba7856b3b0042319a900&type=album"/>
+                <img src="https://sun9-49.userapi.com/impg/zpHgeVYkykUH0jv4oPFouG2eshiTH7QRYwyQdw/T7P6bd9LltY.jpg?size=1527x2160&quality=96&sign=733ff5839d8e38d149fd33fa823e5597&type=album"/>
+            </div>
+        </div>
+      </div>
+      <!--ДОБАВИТЬ СВОЮ РАБОТУ!-->
+      <main>
+        <div class="textAll">
+        
+            <div class="head">Добавьте свою работу</div>
+        </div>
+
+        
+        <div class = "main">
+
+			<form id="formMovie"> 
+                <label class = "text">
+                Имя                                               
+                    <input id = "title" type = "text" placeholder = "Введите имя" required = "required">
+                </label>
+
+				<label class = "text" >
+					Урок
+                    <select id="country" >
+						<option value = "Набор материалов">Набор материалов</option>
+						<option value = "Стиль">Стиль</option>
+						<option value = "Работа с референсом">Работа с референсом</option>
+						<option value = "Акценты">Акценты</option>
+						<option value = "Цвет и свет">Цвет и свет</option>
+                    </select>
+                </label>
+                
+                
+
+                <label class = "text" for="photo">
+                    Ваша работа (jpeg)
+                    <input type = "url" id="photo" name="photo" placeholder="Вставьте ссылку" required = "required">    
+                </label>
+                <div id="buttons">
+
+                    <button type = "submit">Добавить работу</button>
+			         <button type = "reset">Очистить поля</button>
+                </div>   
+                <div id = "message"> </div>
+            </form>
+		</div>
+
+        
+
+
+        <div class = "main" id = "main">
+            <p class="films">Все работы</p>
+        </div>
+	</main>
+	
+      
+
+              <!--УРА ПОДВАЛ!-->
+
+      <div class="footer">
+          <div >
+              Спасибо , что посетили наш сайт!
+              
+          </div>
+
+      </div>
+      <!--КНОПКА НАВЕРХ-->
+      <a href="#top" ID = "toTop">В начало</a> 
+      <script src = "limit.js"></script>
+    <script src = "films.js"></script>
+   
+    
+</body>
+</html>

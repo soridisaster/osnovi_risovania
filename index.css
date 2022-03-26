@@ -1,0 +1,1006 @@
+body {
+    font-family: Century Gothic;
+    font-size: 20pt;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+ 
+  a{
+      text-decoration: none;
+      color: #ffffff;
+  }
+  
+
+  .sections{
+      margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+  }
+
+  .sections button{
+    background-color: #ffffff;
+	border-radius: 10px ;
+	border: none;
+	font-family: Century Gothic;
+	color: #000000;
+	font-size: 15pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 5px;
+    transition: .5s;
+    cursor: pointer;
+  }
+  .sections button:hover{
+    background-color: #FF4F4F;
+	border-radius: 10px ;
+	border: none;
+	font-family: Century Gothic;
+	color: #000000;
+	font-size: 15pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 5px;
+    transition: .5s;
+    cursor: pointer;
+  }
+  /*тест*/
+  #test{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
+
+}
+#testMain{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+	display:none;
+	padding-left: 40%;
+}
+.button_test{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #FF4F4F;
+	border-radius: 10px ;
+	border: none;
+	font-family: Century Gothic;
+	color: white;
+	font-size: 20pt;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 40px;
+	transition: .5s;
+    cursor: pointer;
+}
+.button_test:hover{
+	color: black;
+	transition: 0.2s;
+    cursor: pointer;
+}
+
+
+
+
+
+  .header_img{
+      width: 600px;
+      border-radius: 20px;
+  }
+  .textAll{
+	text-align: justify;
+	display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.div1{
+	padding-top: 100px;
+	text-align: justify;
+	width: 60%;
+    text-indent: 40px;
+	
+}
+.div2{
+	text-align: justify;
+	display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-indent: 40px;
+	
+}
+.div2_1{
+	width: 50%;
+	text-align: justify;
+	padding: 30px;
+    text-indent: 40px;
+
+}
+.div2_2{
+	display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.head{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #FF4F4F;
+}
+
+.img1{
+	width: 500px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+}
+
+
+
+
+
+
+/*галерея*/
+.adaptivny-slayder {
+    position: relative;
+    max-width: 680px;
+    margin: 50px auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+  }
+  
+  .adaptivny-slayder input[name="kadoves"] {
+    display: none;
+  }
+  
+  .kadoves {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .kadoves label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+    border-radius: 50%;
+    border: 5px solid #827FD6;
+    background-color: #ffffff;
+  }
+  
+  #slaid1:checked~.kadoves label[for="slaid1"] {
+    background-color: #FF4F4F;
+  }
+  
+  #slaid2:checked~.kadoves label[for="slaid2"] {
+    background-color: #FF4F4F;
+  }
+  
+  #slaid3:checked~.kadoves label[for="slaid3"] {
+    background-color: #FF4F4F;
+  }
+  
+  #slaid4:checked~.kadoves label[for="slaid4"] {
+    background-color: #FF4F4F;
+  }
+  .adaptivny-slayder-lasekun {
+    overflow: hidden;
+     
+  }
+  
+  .abusteku-deagulus {
+    display: flex;
+    width: 100%;
+    transition: all 0.5s;
+  }
+  
+  .abusteku-deagulus img {
+    width: 100%;
+    flex-shrink:0;
+  }
+  
+  #slaid1:checked~adaptivny-slayder-lasekun abusteku-deagulus {
+    transform: translate(0);
+  }
+  
+  #slaid2:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+    transform: translateX(-100%);
+  }
+  
+  #slaid3:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+    transform: translateX(-200%);
+  }
+  #slaid4:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+    transform: translateX(-300%);
+  }
+
+
+
+  /*подвал*/
+  .footer{
+    display: flex;
+    justify-content: center;
+      background-color: #827FD6;
+      color: #ffffff;
+      padding: 40px;
+  }
+ /*кнопка наверх*/
+  #toTop{
+    position: fixed;
+    left: 20px;
+    bottom: 100px;
+    opacity: 0;
+    background-color: #FF4F4F;
+    color: #ffffff;
+    border-radius: 10px ;
+	border: none;
+	font-family: Century Gothic;
+	font-size: 20pt;
+	padding: 10px;
+}
+/*КАРТОЧКА С РАБОТАМИ*/
+#formMovie , #main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.main{ 
+	margin: 20px auto;
+	width: 80%;
+  background-color: #FF4F4F;
+  padding: 50px;
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+}
+input[type=text]{ 
+  margin-left: 15px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #2D1E1E;
+  width: 200px;
+  height: 30px;
+  padding-left: 15px;
+  border-radius: 5px;
+  position: relative;
+  border: none;
+}
+#photo{ 
+  margin-left: 15px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #2D1E1E;
+  width: 200px;
+  height: 30px;
+  padding-left: 15px;
+  border-radius: 5px;
+  position: relative;
+  border: none;
+}
+
+
+
+#country{
+  margin-left: 15px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #2D1E1E;
+  width: 200px;
+  height: 30px;
+  padding-left: 0px;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+  padding-left: 2px;
+  border: none;
+}
+button{ 
+
+background-color: #827FD6;
+border-radius: 10px ;
+border: none;
+font-family: Century Gothic;
+color: white;
+font-size: 20pt;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 40px;
+transition: .5s;
+  cursor: pointer;
+}
+
+#buttons{
+  display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+}
+input[type=button]{ 
+  margin-bottom: 7px;
+  width: 300px;
+  color: white;
+font-size: 18px;
+  font-weight: bold;
+  padding: 7px;
+  background:  #511B1A;
+  transition: 0.2s;
+border: none;
+}
+
+
+.error{
+color:#75191A;
+font: 24px Century Gothic;
+  font-weight: bold;
+}
+
+.success{
+color:#75191A;
+font: 24px Century Gothic;
+  font-weight: bold;
+}
+
+.films{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  color: white;
+font: 27px Century Gothic;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: #161515;
+  opacity: 0.9;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-radius: 25px;
+}
+
+
+.movieTitle{
+  color: white;
+font: 50px Century Gothic;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card_row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+
+.inform{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 10px;
+}
+
+.inform_row{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.movieImg{
+  display: flex;
+  flex-direction: row;
+}
+
+.img{
+  width: 500px;
+}
+
+
+.param{
+  color: white;
+font: 26px Century Gothic;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.desc{
+  color: #C9C9C9;
+font: 24px Century Gothic;
+  margin: 0px;
+  text-align: justify;
+}
+
+
+.container-main{ 
+  margin: 20px auto;
+  width: 80%;
+  background-color: #232121;
+  opacity: 0.8;
+  padding: 50px;
+  border: none;
+  border-radius: 25px;
+  color: #C9C9C9;
+}
+#button-filter{ 
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  margin: 5px;
+  outline: none;
+  border-radius: 5px;
+  background:  #511B1A;
+  transition: 0.2s;
+  border: none;
+}
+#button-filter:hover{
+  background:  #75191A;
+}
+.contaier-filter{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+#iCountryFilter, #iYearFilter, #iGenreFilter{
+  margin-left: 15px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #2D1E1E;
+  width: 180px;
+  height: 30px;
+  padding-left: 15px;
+  border-radius: 5px;
+  position: relative;
+  border: none;
+}
+#comment-block{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+#iGrade{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #2D1E1E;
+}
+#commentInputName{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+#commentText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+#comment-button , #comment-button-reset{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+#comment-button:hover , #comment-button-reset:hover{
+  background:  #75191A;
+}
+.comment-block{
+  padding-top: 30px;
+  padding-right: 10px;
+  background-color: white;
+  background-size: cover;
+  top: 20%;
+  left: 35%;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: center;
+
+}
+.comment-title-movie, .comment-name, .comment-text{
+  color: white;
+}
+
+
+
+
+
+
+/* АДАПТИВНОСТЬ*/
+
+
+
+
+/* я хочу сдохнуть сделай это завтра */
+
+@media (max-width: 450px) {
+  body {
+    font-size: 16pt;
+  }
+  .header_img{
+    width: 350px;
+    border-radius: 20px;
+  }
+  .sections button{
+    background-color: #ffffff;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    color: #000000;
+    font-size: 10pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 2px;
+      transition: .5s;
+      cursor: pointer;
+  }
+  .div1{
+    padding-top: 50px;
+    text-align: justify;
+    width: 80%;
+    text-indent: 40px;
+    
+  }
+  .div2_1{
+    width: 80%;
+    text-align: justify;
+    padding: 30px;
+    text-indent: 40px;
+  
+  }
+  .img1{
+    width: 350px;
+  }
+  .button_test{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF4F4F;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    color: white;
+    font-size: 16pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    transition: .5s;
+      cursor: pointer;
+  }
+  #toTop{
+    position: fixed;
+    left: 20px;
+    bottom: 50px;
+    opacity: 0;
+    background-color: #FF4F4F;
+    color: #ffffff;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    font-size: 16pt;
+    padding: 10px;
+  }
+  .kadoves label {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+    border-radius: 50%;
+    border: 5px solid #827FD6;
+    background-color: #ffffff;
+  }
+
+}
+
+@media (max-width: 620px) {
+  body {
+    font-size: 18pt;
+  }
+  .header_img{
+    width: 500px;
+    border-radius: 20px;
+  }
+  .sections button{
+    background-color: #ffffff;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    color: #000000;
+    font-size: 14pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+      transition: .5s;
+      cursor: pointer;
+  }
+  .div1{
+    padding-top: 50px;
+    text-align: justify;
+    width: 80%;
+    text-indent: 40px;
+    
+  }
+  .div2_1{
+    width: 80%;
+    text-align: justify;
+    padding: 30px;
+    text-indent: 40px;
+  
+  }
+  .img1{
+    width: 400px;
+  }
+  .button_test{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF4F4F;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    color: white;
+    font-size: 18pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 25px;
+    transition: .5s;
+      cursor: pointer;
+  }
+  #toTop{
+    position: fixed;
+    left: 20px;
+    bottom: 50px;
+    opacity: 0;
+    background-color: #FF4F4F;
+    color: #ffffff;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    font-size: 18pt;
+    padding: 10px;
+  }
+  .kadoves label {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+    border-radius: 50%;
+    border: 5px solid #827FD6;
+    background-color: #ffffff;
+  }
+
+}
+@media (max-width: 820px) {
+  body {
+    font-size: 18pt;
+  }
+  .header_img{
+    width: 500px;
+    border-radius: 20px;
+  }
+  .sections button{
+    background-color: #ffffff;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    color: #000000;
+    font-size: 14pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+      transition: .5s;
+      cursor: pointer;
+  }
+  .div1{
+    padding-top: 50px;
+    text-align: justify;
+    width: 90%;
+    text-indent: 40px;
+    
+  }
+  .div2_1{
+    width: 90%;
+    text-align: justify;
+    padding: 30px;
+    text-indent: 40px;
+  
+  }
+  .img1{
+    width: 400px;
+  }
+  .button_test{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF4F4F;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    color: white;
+    font-size: 18pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 25px;
+    transition: .5s;
+      cursor: pointer;
+  }
+  #toTop{
+    position: fixed;
+    left: 20px;
+    bottom: 50px;
+    opacity: 0;
+    background-color: #FF4F4F;
+    color: #ffffff;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    font-size: 18pt;
+    padding: 10px;
+  }
+  .kadoves label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+    border-radius: 50%;
+    border: 5px solid #827FD6;
+    background-color: #ffffff;
+  }
+
+}
+@media (max-width: 820px) {
+  body {
+    font-size: 18pt;
+  }
+  .header_img{
+    width: 500px;
+    border-radius: 20px;
+  }
+  .sections button{
+    background-color: #ffffff;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    color: #000000;
+    font-size: 14pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+      transition: .5s;
+      cursor: pointer;
+  }
+  .div1{
+    padding-top: 50px;
+    text-align: justify;
+    width: 90%;
+    text-indent: 40px;
+    
+  }
+  .div2_1{
+    width: 90%;
+    text-align: justify;
+    padding: 30px;
+    text-indent: 40px;
+  
+  }
+  .img1{
+    width: 400px;
+  }
+  .button_test{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF4F4F;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    color: white;
+    font-size: 18pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 25px;
+    transition: .5s;
+      cursor: pointer;
+  }
+  #toTop{
+    position: fixed;
+    left: 20px;
+    bottom: 50px;
+    opacity: 0;
+    background-color: #FF4F4F;
+    color: #ffffff;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    font-size: 18pt;
+    padding: 10px;
+  }
+  .kadoves label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+    border-radius: 50%;
+    border: 5px solid #827FD6;
+    background-color: #ffffff;
+  }
+}
+@media (max-width: 1080px) {
+  body {
+    font-size: 28pt;
+  }
+  .header_img{
+    width: 900px;
+    border-radius: 20px;
+  }
+  .sections button{
+    background-color: #ffffff;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    color: #000000;
+    font-size: 28pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 18px;
+      transition: .5s;
+      cursor: pointer;
+  }
+  .div1{
+    padding-top: 50px;
+    text-align: justify;
+    width: 90%;
+    text-indent: 40px;
+    
+  }
+  .div2_1{
+    width: 90%;
+    text-align: justify;
+    padding: 30px;
+    text-indent: 40px;
+  
+  }
+  .img1{
+    width: 800px;
+  }
+  .button_test{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF4F4F;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    color: white;
+    font-size: 28pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 40px;
+    transition: .5s;
+      cursor: pointer;
+  }
+  #toTop{
+    position: fixed;
+    left: 20px;
+    bottom: 50px;
+    opacity: 0;
+    background-color: #FF4F4F;
+    color: #ffffff;
+    border-radius: 10px ;
+    border: none;
+    font-family: Century Gothic;
+    font-size: 28pt;
+    padding: 10px;
+  }
+  .kadoves label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+    border-radius: 50%;
+    border: 10px solid #827FD6;
+    background-color: #ffffff;
+  }
+  .kadoves {
+    position: absolute;
+    left: 0;
+    bottom: -80px;
+    text-align: center;
+    width: 100%;
+  }
+  
+
+}
+
+
