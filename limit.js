@@ -42,11 +42,11 @@ function checkEmptyInput(){
     let res = false;
 
     if(document.getElementById("title").value.trim() == ""){
-        addMessageError("Введите Название");
+        addMessageError("Введите ваше имя");
         res = true;
     }
     if(document.getElementById("country").value.trim() == ""){
-        addMessageError("Введите Страну");
+        addMessageError("Введите урок");
         res = true;
     }
     
